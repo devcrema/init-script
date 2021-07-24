@@ -1,0 +1,9 @@
+tap "adoptopenjdk/openjdk"
+
+cask "adoptopenjdk8"
+cask "adoptopenjdk11"
+cask "adoptopenjdk15"
+cask "docker"
+cask "chromedriver"
+cask "android-sdk"
+cask "visual-studio-code"
