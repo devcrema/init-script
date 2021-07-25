@@ -6,6 +6,8 @@ echo "install brew"
 
 echo "setup"
 brew bundle --file mac/setup.brewfile
+echo "install mas"
+brew bundle --file mac/mas.brewfile
 echo "install apps"
 brew bundle --file mac/app.brewfile
 echo "install casks"
