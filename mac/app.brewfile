@@ -34,15 +34,11 @@ brew "thefuck"
 brew "yarn"
 brew "facebook/fb/idb-companion"
 brew "watch"
+brew "zsh"
 # python
 brew "python"
 brew "pipenv"
 brew "pyenv"
-# zsh
-brew "zsh"
-brew "zsh-autosuggestions"
-brew "zsh-completions"
-brew "zsh-syntax-highlighting"
 # k8s
 brew "kubectx"
 brew "minikube"
