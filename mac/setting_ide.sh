@@ -19,3 +19,5 @@ open -na \"PyCharm.app\" --args \"\$@\"
 " >> $CHARM
 chmod +x $CHARM
 
+# code
+echo "export PATH=\"\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin\"" >> ~/.zshrc

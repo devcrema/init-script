@@ -13,20 +13,18 @@ brew bundle --file mac/cask.brewfile
 echo "install apps"
 brew bundle --file mac/app.brewfile
 
+echo "overwrite karabiner configuration"
+cp -f ./mac/backup/karabiner.json ~/.config/karabiner/karabiner.json
+
+echo "setting zsh"
+./mac/setting_zsh.sh
+./mac/setting_personal_zshrc.sh
+
 echo "setting ide"
 ./mac/setting_ide.sh
 
 echo "setting jdk"
 ./mac/setting_jdk.sh
-
-echo "overwrite karabiner configuration"
-cp -f ./mac/backup/karabiner.json ~/.config/karabiner/karabiner.json
-
-# TODO add code to path
-echo "setting zsh"
-./mac/setting_zsh.sh
-./mac/setting_personal_zshrc.sh
-
 
 # TODO..
 # rectangle and option
