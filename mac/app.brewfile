@@ -33,6 +33,7 @@ brew "telnet"
 brew "thefuck"
 brew "yarn"
 brew "facebook/fb/idb-companion"
+brew "watch"
 # python
 brew "python"
 brew "pipenv"
