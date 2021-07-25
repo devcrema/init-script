@@ -26,7 +26,7 @@ cp -f ./mac/backup/karabiner.json ~/.config/karabiner/karabiner.json
 # TODO add code to path
 
 # TODO..
-# spectacle and option
+# rectangle and option
 # itsycal
 # alfred and option
 # clipy
