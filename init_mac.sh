@@ -84,3 +84,9 @@ https://music.youtube.com/
 Press enter to continue
 "
 read -r
+
+echo " install intellij plugins
+
+Press enter to continue
+"
+read -r
