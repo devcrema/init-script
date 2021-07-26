@@ -2,7 +2,7 @@ tap "adoptopenjdk/openjdk"
 
 cask "adoptopenjdk8"
 cask "adoptopenjdk11"
-cask "adoptopenjdk15"
+cask "adoptopenjdk16"
 cask "docker"
 cask "chromedriver"
 cask "android-sdk"
