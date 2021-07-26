@@ -21,3 +21,9 @@ chmod +x $CHARM
 
 # code
 echo "export PATH=\"\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin\"" >> ~/.zshrc
+export ~/.zshrc
+code --install-extension xyz.local-history
+code --install-extension pkief.material-icon-theme
+code --install-extension ms-python.python
+code --install-extension streetsidesoftware.code-spell-checker
+cp -f ./mac/backup/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
