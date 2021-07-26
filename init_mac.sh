@@ -24,7 +24,7 @@ echo "setting jdk"
 ./mac/setting_jdk.sh
 
 echo "setting mac keyboard repeat speed (apply after reboot)"
-defaults write -g InitialKeyRepeat -int 10 # 기본 최소값은 15 (225 ms)
+defaults write -g InitialKeyRepeat -int 15 # 기본 최소값은 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # 기본 최소값은 2 (30 ms)
 
 
@@ -104,6 +104,16 @@ read -r
 echo " git settings
 - git config --global user.name "내 이름"
 - git config --global user.email you@example.com
+
+Press enter to continue
+"
+read -r
+
+echo " install chrome extensions
+- https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
+- https://chrome.google.com/webstore/detail/tooltip-dictionary/kibbnopaghnmdlmocibfmnljlihmlgip
+- https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc
+- https://chrome.google.com/webstore/detail/better-pull-request-for-g/nfhdjopbhlggibjlimhdbogflgmbiahc
 
 Press enter to continue
 "
