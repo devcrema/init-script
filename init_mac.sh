@@ -13,9 +13,6 @@ brew bundle --file mac/cask.brewfile
 echo "install apps"
 brew bundle --file mac/app.brewfile
 
-echo "overwrite karabiner configuration"
-cp -f ./mac/backup/karabiner.json ~/.config/karabiner/karabiner.json
-
 echo "setting zsh"
 ./mac/setting_zsh.sh
 ./mac/setting_personal_zshrc.sh
@@ -26,7 +23,7 @@ echo "setting ide"
 echo "setting jdk"
 ./mac/setting_jdk.sh
 
-echo "setting mac keyboard repeat speed"
+echo "setting mac keyboard repeat speed (apply after reboot)"
 defaults write -g InitialKeyRepeat -int 10 # 기본 최소값은 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # 기본 최소값은 2 (30 ms)
 
@@ -45,6 +42,10 @@ read -r
 echo " karabiner (set capslock language change faster)
 mac preference - keyboard - 보조키 - Caps lock 키 작업없음 (키보드 선택 부분이 있는 경우는 Apple Internal Keyboard / Trackpad)
 mac preference - keyboard - 단축키 - 입력소스 - 입력메뉴에서 다음 소스 선택 - caps lock 눌러서 f18 등록
+
+open karabiner and
+- (overwrite karabiner configuration)
+- cp -f ./mac/backup/karabiner.json ~/.config/karabiner/karabiner.json
 
 Press enter to continue
 "
@@ -86,6 +87,23 @@ Press enter to continue
 read -r
 
 echo " install intellij plugins
+- GitToolBox
+- kotlin fill class
+- JSON To Kotlin Class
+- Rainbow Brackets
+- String Manipulation
+- Atom Material Icons
+- CSV Plugin
+- Nyan Progress Bar
+- Power Mode II
+
+Press enter to continue
+"
+read -r
+
+echo " git settings
+- git config --global user.name "내 이름"
+- git config --global user.email you@example.com
 
 Press enter to continue
 "
