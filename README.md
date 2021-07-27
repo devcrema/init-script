@@ -6,7 +6,6 @@ init script for develop
 ### before run
 - `git clone https://github.com/devcrema/init-script`
 - sign in appstore
-- `sudo xcodebuild -license accept`
 
 ### before run in m1
 - 스크립트 실행전에 아래를 먼저 할 것
@@ -16,7 +15,7 @@ init script for develop
 
 ### run 
 - `cd init-script`
-- `sudo ./init_mac.sh`
+- `./init_mac.sh`
 
 ### after run
 - launch cask apps for init

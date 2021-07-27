@@ -1,5 +1,4 @@
 tap "derailed/k9s"
-tap "facebook/fb"
 tap "versent/taps"
 
 brew "boost"
@@ -32,7 +31,6 @@ brew "opencv"
 brew "telnet"
 brew "thefuck"
 brew "yarn"
-brew "facebook/fb/idb-companion"
 brew "watch"
 brew "zsh"
 # python

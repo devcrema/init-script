@@ -102,8 +102,9 @@ Press enter to continue
 read -r
 
 echo " git settings
-- git config --global user.name "내 이름"
+- git config --global user.name \"username\"
 - git config --global user.email you@example.com
+- git config --global core.quotepath false
 
 Press enter to continue
 "
