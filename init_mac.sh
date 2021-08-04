@@ -119,3 +119,10 @@ echo " install chrome extensions
 Press enter to continue
 "
 read -r
+
+echo " install rocket
+- https://matthewpalmer.net/rocket/
+
+Press enter to continue
+"
+read -r
