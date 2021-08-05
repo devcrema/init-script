@@ -16,4 +16,5 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
+  "workbench.editor.showTabs": true,
 }
