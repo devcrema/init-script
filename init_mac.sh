@@ -23,6 +23,9 @@ echo "setting ide"
 echo "setting jdk"
 ./mac/setting_jdk.sh
 
+echo "setting other"
+./mac/setting_other.sh
+
 echo "setting mac keyboard repeat speed (apply after reboot)"
 defaults write -g InitialKeyRepeat -int 15 # 기본 최소값은 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # 기본 최소값은 2 (30 ms)
