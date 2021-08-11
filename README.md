@@ -6,6 +6,8 @@ init script for develop
 ### before run
 - `git clone https://github.com/devcrema/init-script`
 - sign in appstore
+- sudo chown -R $(whoami) /usr/local/bin
+- 환경설정 - 사용자 그룹 - 사용자를 이 컴퓨터의 관리자로 허용
 
 ### before run in m1
 - 스크립트 실행전에 아래를 먼저 할 것
