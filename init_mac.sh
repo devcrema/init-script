@@ -100,6 +100,9 @@ echo " install intellij plugins
 - Nyan Progress Bar
 - Power Mode II
 
+and key mapping
+- command + 2 : favorite -> terminal
+
 Press enter to continue
 "
 read -r
