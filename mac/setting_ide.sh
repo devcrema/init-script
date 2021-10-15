@@ -19,6 +19,16 @@ open -na \"PyCharm.app\" --args \"\$@\"
 " >> $CHARM
 chmod +x $CHARM
 
+# webstorm
+WEBSTORM="/usr/local/bin/webstorm"
+touch $WEBSTORM
+echo "
+#!/bin/sh
+
+open -na \"WebStorm.app\" --args \"\$@\"
+" >> $WEBSTORM
+chmod +x $WEBSTORM
+
 # code
 echo "export PATH=\"\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin\"" >> ~/.zshrc
 code --install-extension xyz.local-history
