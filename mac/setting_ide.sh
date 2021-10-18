@@ -35,4 +35,5 @@ code --install-extension xyz.local-history
 code --install-extension pkief.material-icon-theme
 code --install-extension ms-python.python
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension eamodio.gitlens
 cp -f ./mac/backup/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json

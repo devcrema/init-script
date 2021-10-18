@@ -16,6 +16,7 @@ cask "zoom"
 cask "imageoptim"
 cask "alfred"
 cask "rectangle"
+cask "slack"
 # ide
 cask "android-studio"
 cask "intellij-idea"

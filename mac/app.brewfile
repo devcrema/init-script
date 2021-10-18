@@ -35,6 +35,7 @@ brew "fd"
 brew "gping"
 brew "procs"
 brew "httpie"
+brew "git-delta"
 # python
 brew "python"
 brew "pipenv"

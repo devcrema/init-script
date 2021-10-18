@@ -1,5 +1,16 @@
 #!/bin/sh
 
-npm install -g git-split-diffs
-git config --global core.pager "git-split-diffs --color | less -RFX"
-npm install gtop -g
+#npm install gtop -g
+echo "
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[delta]
+    navigate = true
+
+[interactive]
+    diffFilter = delta --color-only
+" >> ~/.gitconfig
