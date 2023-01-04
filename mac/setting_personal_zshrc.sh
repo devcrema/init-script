@@ -12,5 +12,5 @@
   echo "alias dpushf='git push --force origin master & git push --force origin2 master & git push --force origin3 master'"
 
   echo "alias gitclean='git fetch --prune origin && git branch --no-color --merged | command grep -vE \"^(\*|\s*(master|main|develop|dev)\s*$)\" | command xargs -n 1 git branch -d'"
-  echo "alias gcommit='git add . && git status && gitmoji -c && git push -u origin head'"
+  echo "alias gcommit='git pull && git add . && git status && gitmoji -c && git push -u origin head'"
 } >> ~/.zshrc
